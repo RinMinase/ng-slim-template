@@ -39,13 +39,13 @@
             "outputPath": "dist/ng-slim-template",
             "index": "src/index.html",
             "main": "src/index.ts",
-            "tsConfig": "tsconfig.app.json",
+            "tsConfig": "tsconfig.json",
             "aot": true,
             "assets": [
               "src/assets"
             ],
             "styles": [
-              "src/index.css"
+              "src/index.scss"
             ]
           },
           "configurations": {
