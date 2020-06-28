@@ -46,6 +46,9 @@
             ],
             "styles": [
               "src/index.scss"
+            ],
+            "allowedCommonJsDependencies": [
+              "zone.js/dist/zone"
             ]
           },
           "configurations": {
