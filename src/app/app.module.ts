@@ -3,8 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
+import { HomeModule } from "./home/home.module";
 
-const routes: Routes = [];
+const routes: Routes = [
+	{
+		path: "about",
+		loadChildren: () =>
+			import("./about/about.module").then((m) => m.AboutModule),
+	},
+	{
+		path: "",
+		pathMatch: "full",
+		redirectTo: "",
+  },
+];
 
 @NgModule({
   declarations: [
@@ -13,6 +25,8 @@ const routes: Routes = [];
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes),
+
+    HomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
