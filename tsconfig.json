@@ -9,10 +9,9 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2015",
+    "target": "es5",
     "module": "es2020",
     "lib": [ "es2018", "dom" ],
-    "types": []
   },
   "files": [ "src/index.ts" ],
 }
