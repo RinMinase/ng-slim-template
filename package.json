@@ -1,7 +1,14 @@
 {
   "name": "ng-slim-template",
+  "description": "",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "author": "Rin Minase",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RinMinase/ng-slim-template"
+  },
   "scripts": {
     "start": "ng serve",
     "build": "ng build"
