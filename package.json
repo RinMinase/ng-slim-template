@@ -23,5 +23,14 @@
     "@angular/platform-browser": "^10.0.0",
     "tslib": "^2.0.0",
     "typescript": "^3.9.5"
-  }
+  },
+  "browserslist": [
+    "last 1 Chrome versions",
+    "last 1 Firefox versions",
+    "last 2 Edge major versions",
+    "last 2 Safari major versions",
+    "last 2 iOS major versions",
+    "Firefox ESR",
+    "not IE 9-11"
+  ]
 }
