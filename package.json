@@ -29,7 +29,7 @@
     "@angular/compiler": "^10.0.4",
     "@angular/compiler-cli": "^10.0.4",
     "@angular/platform-browser": "^10.0.4",
-    "dotenv-webpack": "^1.8.0",
+    "dotenv-webpack": "^2.0.0",
     "tslib": "^2.0.0",
     "typescript": "^3.9.7",
     "webpack": "^4.43.0"
