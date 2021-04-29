@@ -20,14 +20,8 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-builders/custom-webpack:browser",
+          "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "customWebpackConfig": {
-              "path": "webpack.ts",
-              "mergeStrategies": {
-                "externals": "replace"
-              }
-            },
             "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/index.ts",
@@ -35,34 +29,31 @@
             "aot": true,
             "assets": [ "src/assets" ],
             "styles": [ "src/index.scss" ],
-            "allowedCommonJsDependencies": [
-              "zone.js/dist/zone"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
               "budgets": [{
                 "type": "initial",
-                "maximumWarning": "2mb",
-                "maximumError": "3mb"
+                "maximumWarning": "500kb",
+                "maximumError": "1mb"
               }, {
                 "type": "anyComponentStyle",
-                "maximumWarning": "5kb",
+                "maximumWarning": "4kb",
                 "maximumError": "7kb"
               }]
             }
           }
         },
         "serve": {
-          "builder": "@angular-builders/custom-webpack:dev-server",
+          "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
             "browserTarget": "ng-slim-template:build"
           },
