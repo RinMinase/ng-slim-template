@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
 	templateUrl: './about.component.html'
 })
 export class AboutComponent implements OnInit {
-	value = process.env.VALUE || "";
+	// value = process.env.VALUE || "";
 
 	constructor() { }
 
