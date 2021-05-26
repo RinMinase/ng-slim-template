@@ -49,6 +49,13 @@
                 "maximumWarning": "4kb",
                 "maximumError": "7kb"
               }]
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true
             }
           }
         },
@@ -60,6 +67,9 @@
           "configurations": {
             "production": {
               "browserTarget": "ng-slim-template:build:production"
+            },
+            "development": {
+              "browserTarget": "ng-slim-template:build:development"
             }
           }
         }
