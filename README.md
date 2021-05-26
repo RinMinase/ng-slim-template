@@ -1,8 +1,8 @@
-<h1 align="center"> Angular 10 Slim Template </h1>
+<h1 align="center"> Angular 12 Slim Template </h1>
 
 <p align="center">
     <a href="https://angular.io/">
-        <img alt="Angular" src="https://img.shields.io/badge/angular-%5E11-red.svg?logo=angular&style=for-the-badge">
+        <img alt="Angular" src="https://img.shields.io/badge/angular-%5E12-red.svg?logo=angular&style=for-the-badge">
     </a>
     <a href="https://david-dm.org/RinMinase/ng-slim-template">
         <img alt="David-DM" src="https://img.shields.io/david/RinMinase/ng-slim-template?style=for-the-badge">
@@ -63,5 +63,5 @@ Schematics
 - `service` or `s` - Creates a new [service](https://angular.io/guide/architecture-services)
 
 ## Built with
-* <img width=20 height=20 src="https://angular.io/assets/images/favicons/favicon.ico"> [Angular 11](https://angular.io/) - Web Framework
+* <img width=20 height=20 src="https://angular.io/assets/images/favicons/favicon.ico"> [Angular 12](https://angular.io/) - Web Framework
 * <img width=20 height=20 src="https://sass-lang.com/favicon.ico"> [Sassy CSS (SCSS)](https://sass-lang.com/) - CSS pre-processor
