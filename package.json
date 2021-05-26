@@ -10,8 +10,8 @@
     "url": "https://github.com/RinMinase/ng-slim-template"
   },
   "scripts": {
-    "start": "ng serve",
-    "build": "ng build --prod"
+    "start": "ng serve --configuration development",
+    "build": "ng build --configuration production"
   },
   "dependencies": {
     "@angular/common": "^12.0.1",
