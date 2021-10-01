@@ -31,6 +31,10 @@
     "tslib": "^2.3.1",
     "typescript": "^4.4.3"
   },
+  "resolutions": {
+    "**/ansi-regex": "^5.0.1",
+    "**/glob-parent": "^6.0.2"
+  },
   "browserslist": [
     "last 1 Chrome versions",
     "last 1 Firefox versions",
